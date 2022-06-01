@@ -1,0 +1,87 @@
+.body{
+    margin: auto auto;
+    color: white;
+
+}
+
+.main{
+    background: url("img/mountains.png") left no-repeat;
+    position: relative; 
+    background-size: cover;
+    background-clip: border-box;
+    height: 98vh;
+    min-height: auto;
+    width: 99vw;
+    min-width: auto;
+    background-color: black;
+    color: white;
+}
+
+.line{
+    position: absolute;
+    background-color: red;
+    width: 2vw;
+    height: 0.5vh;
+}
+
+.tochka{
+    position: absolute;
+}
+
+#tochka1{
+
+    bottom: 6.4vh;
+    left: 27vh;
+}
+
+
+#tochka2{
+    bottom: 37vh;
+    left: 59.5vh;
+}
+
+#tochka3{
+    bottom: 59vh;
+    left: 81vh;
+}
+
+#tochka4{
+    bottom: 61.5vh;
+    left: 106vh;
+}
+
+#tochka5{
+    bottom: 71vh;
+    left: 127vh;
+}
+
+#tochka6{
+    bottom: 89vh;
+    left: 147vh;
+}
+
+#climber{
+    background: url("img/climber.png") center no-repeat;
+    position: absolute; 
+    background-size: cover;
+    background-clip: border-box;
+    height: 5vh;
+    width: 2vw;
+    
+    bottom: -6vh;
+    left: 0.2vw;
+
+    
+}
+
+#flag{
+    background: url("img/win.gif") center no-repeat;
+    position: absolute; 
+    background-size: cover;
+    background-clip: border-box;
+    height: 5vh;
+    width: 2vw;
+    
+    bottom: 0.1vh;
+    left: 0.2vw;
+}
